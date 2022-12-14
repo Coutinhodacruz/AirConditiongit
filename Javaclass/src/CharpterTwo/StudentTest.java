@@ -6,10 +6,10 @@ public class StudentTest {
         Student account2 = new Student("Bobby Firmino", 78.3);
 
 
-        System.out.printf("%s's letter grade is:%s%n", account1.getName(),account1.getLetterGrade(),
+        System.out.printf("%s's letter grade is:%s%.2f%n", account1.getName(),account1.getLetterGrade(),
                 account1.getAverage());
 
-        System.out.printf("%s's letter grade is:%s%n", account2.getName(),account2.getLetterGrade(),
+        System.out.printf("%s's letter grade is:%s%.2f%n", account2.getName(),account2.getLetterGrade(),
                 account2.getAverage());
 
     }
