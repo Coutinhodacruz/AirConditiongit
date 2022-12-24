@@ -5,7 +5,7 @@ public class PetrolPurchase {
     private String location;
     private String PetrolType;
 
-    private int Quantity;
+   // private int Quantity;
 
 
     public PetrolPurchase() {
@@ -40,12 +40,12 @@ public class PetrolPurchase {
         return PetrolType;
     }
 
-    public void setQuantity(int quantity, int i) {
-     this.Quantity = quantity;
-    }
-
-    public int getQuantity(){
-        return Quantity;
-    }
+//    public void setQuantity(int quantity, int i) {
+//     this.Quantity = quantity;
+//    }
+//
+//    public int getQuantity(){
+//        return Quantity;
+//    }
 
 }

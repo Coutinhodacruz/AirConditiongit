@@ -10,7 +10,7 @@ public class AirConditioner {
        this.productName = name;
     }
 
-    public String getproductName() {
+    public String getProductName() {
         return productName;
     }
 
@@ -46,6 +46,13 @@ public class AirConditioner {
     public int airConditionerTemperature(int rate) {return rate;}
 
     public void temperatureNotBeyond() {
+        int temperature = 30;
+        if (temperature < 30);
+        boolean temperatureNotBeyond = false;
+        System.out.println(temperatureNotBeyond);
+            
+        
+
     }
 
 

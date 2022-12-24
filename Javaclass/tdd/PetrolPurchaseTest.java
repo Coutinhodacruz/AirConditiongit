@@ -22,10 +22,10 @@ class PetrolPurchaseTest {
         System.out.printf("Petrol type is: %s%n", result);
         System.out.println();
 
-        Petrol.setQuantity(8000, 5000);
-        Petrol.getQuantity();
-        System.out.println("Quantity of Fuel && Diesel is: 8000, 5000");
-        System.out.println();
+      //  Petrol.setQuantity(8000, 5000);
+      //  Petrol.getQuantity();
+      //  System.out.println("Quantity of Fuel && Diesel is: 8000, 5000");
+      //  System.out.println();
 
 
 

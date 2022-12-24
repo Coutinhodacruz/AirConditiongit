@@ -13,7 +13,7 @@ public class AirConditionerTest {
        //what's the name of the Ac
        airConditioner.setProductName("Thermocool");
        // my Ac name
-       assertEquals("Thermocool",airConditioner.getproductName());
+       assertEquals("Thermocool",airConditioner.getProductName());
    }
 
     @Test
