@@ -133,6 +133,8 @@ public class TwelveDaysOfChristmas {
                             And a partridge in a pear tree !!!""");
                     System.out.println();
                     break;
+                default:
+                    System.out.println("Merry Christmas To You All");
             }
 
         }
