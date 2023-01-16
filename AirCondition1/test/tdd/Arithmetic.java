@@ -20,5 +20,8 @@ public class Arithmetic {
 
     public int AddSquareNumber(int AddSquareNumber) {
         return 10 + 15;
+
+
     }
+
 }

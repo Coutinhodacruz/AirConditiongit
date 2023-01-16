@@ -25,7 +25,7 @@ public class ClassAverageTwo {
             System.out.printf("Class average is %.2f%%n",average);
         }
         else {
-            System.out.printf("%n of all the grade 10 is %d%n",gradeCounter,total);
+            System.out.printf("%n of all the grade 10 is %d%n",gradeCounter, total);
             System.out.println("print all grade");
         }
     }

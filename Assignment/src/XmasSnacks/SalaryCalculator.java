@@ -12,7 +12,7 @@ public class SalaryCalculator {
         String[] EmployeeNames = {" ", " ", " "};
         double HoursWorked = 0;
         double hourlyRate;
-        double gross;
+        double gross = 0;
         int numberOfHours = 0;
 
         System.out.println("Welcome to the Salary Calculator.\n");
@@ -31,10 +31,30 @@ public class SalaryCalculator {
         System.out.println("hourlyRate:");
         hourlyRate = scanner.nextDouble();
         for (int i = 0; i < 3; i++) {
-            if (HoursWorked > hourlyRate && hourlyRate <= 40) {
-                gross = HoursWorked * hourlyRate;
-                gross = (numberOfHours / HoursWorked) * hourlyRate;
-                System.out.printf("The gross pay for " + EmployeeNames[i] + " is: $%.2f\n", hourlyRate);
+            if (hourlyRate > HoursWorked && hourlyRate >= 40) {
+                gross = hourlyRate % HoursWorked;
+                gross = (numberOfHours * hourlyRate) + HoursWorked;
+                System.out.printf("The gross pay for " + EmployeeNames[i] + " is: $%.2f\n", hourlyRate * HoursWorked + gross);
+
+
+
+
+
+
+
+
+
+
+
+
+//                System.out.println(EmployeeNames + " Gross: " + (HoursWorked <= 40 ?hourlyRate * HoursWorked : (hourlyRate * 40) + (numberOfHours * (hourlyRate - 40) * 1.5)));
+
+
+
+
+
+
+
             }
         }
 

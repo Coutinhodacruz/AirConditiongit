@@ -16,7 +16,7 @@ public class CalculatingSales {
 
         System.out.println("Enter value (1-5) or -0 to Quit");
         int value = input.nextInt();
-        while (product == 0) {
+        while (product == -0) {
             price = price + product;
             while (done.equals("y")) {
                 System.out.println("Enter product Number: ");
